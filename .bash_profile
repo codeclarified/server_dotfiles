@@ -318,4 +318,4 @@ function prompt_command() {
 
 PROMPT_COMMAND="prompt_command"
 
-export PATH="/usr/local/bin:$(brew --prefix homebrew/php/php55)/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
