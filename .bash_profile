@@ -295,7 +295,7 @@ function prompt_command() {
 
   prompt_getcolors
   # http://twitter.com/cowboy/status/150254030654939137
-  PS1="\n"
+  PS1="\n$c1[$c0\H$c1]$c9"
   # svn: [repo:lastchanged]
   PS1="$PS1$(prompt_svn)"
   # git: [branch:flags]
